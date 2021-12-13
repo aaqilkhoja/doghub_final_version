@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- linear layout so we do not have to fix orientation constants-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="#ffe98a"
+    android:gravity="center"
+
+    tools:context=".LoginActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to doghub"
+        android:textColor="#280b45"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="20dp" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/doghub_logo"
+        android:layout_marginBottom="75dp" />
+
+    <EditText
+        android:layout_width="375dp"
+        android:layout_height="60dp"
+        android:hint="Email"
+        android:layout_margin="10dp"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:drawableStart="@drawable/custom_email_input"
+        android:drawablePadding="10dp"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/grey"
+        android:id="@+id/login_email_et"
+        android:background="@drawable/custom_input"
+        android:drawableLeft="@drawable/custom_email_input" />
+
+
+    <EditText
+        android:layout_width="375dp"
+        android:layout_height="60dp"
+        android:hint="Password"
+        android:layout_margin="10dp"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:drawableStart="@drawable/custom_pass_input"
+        android:drawablePadding="10dp"
+        android:inputType="textPassword"
+        android:textColorHint="@color/grey"
+        android:id="@+id/login_password_et"
+        android:background="@drawable/custom_input"
+        android:drawableLeft="@drawable/custom_email_input" />
+
+
+    <CheckBox
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="show password"
+        android:buttonTint="@android:color/black"
+        android:textColor="@android:color/black"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/login_checkbox" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:textColor="#280b45"
+        android:text="Login"
+        android:layout_margin="10dp"
+        android:id="@+id/button_login"
+        android:textSize="25sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:textColor="#280b45"
+        android:text="Sign Up"
+        android:layout_margin="10dp"
+        android:id="@+id/login_to_signup"
+        android:textSize="25sp" />
+
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressbar_login"
+        android:indeterminateTint="@android:color/holo_blue_dark"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:visibility="invisible"
+        android:layout_marginTop="20dp" />
+
+
+</LinearLayout>

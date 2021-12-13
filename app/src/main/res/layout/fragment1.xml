@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            app:cardBackgroundColor="#fde98a">
+
+            <ImageButton
+                android:id="@+id/sandwichButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:layout_margin='10dp'
+                android:background="@android:color/transparent"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:src="@drawable/ic_baseline_menu_24"
+                tools:ignore="SpeakableTextPresentCheck">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:text="MY PROFILE"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+
+            </TextView>
+
+            <ImageButton
+                android:id="@+id/frag1_send_message"
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:layout_margin='10dp'
+                android:background="@android:color/transparent"
+
+                android:minHeight="48dp"
+                android:src="@drawable/ic_baseline_message_24"
+                tools:ignore="SpeakableTextPresentCheck">
+
+            </ImageButton>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="676dp"
+            android:background="#FFFFFF"
+            android:backgroundTint="#FFFFFF">
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="143dp"
+                android:layout_height="150dp"
+
+
+                android:layout_gravity="center"
+                app:cardCornerRadius="75dp"
+                app:layout_constraintBottom_toTopOf="@+id/textView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.176"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.484">
+
+
+                <ImageView
+                    android:id="@+id/profilePic"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    tools:ignore="MissingConstraints" />
+
+            </androidx.cardview.widget.CardView>
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="380dp"
+                android:layout_height="177dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="false"
+                android:src="@drawable/rounded_corner"
+                app:layout_constraintEnd_toEndOf="@+id/imageView3"
+                app:layout_constraintStart_toStartOf="@+id/imageView3"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="#FFF6C6"></ImageView>
+
+            <TextView
+
+                android:id="@+id/ownerName"
+                android:layout_width="180dp"
+                android:layout_height="43dp"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif"
+                android:hint="FIRST LAST"
+                android:minHeight="48dp"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/textView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.91"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.456"
+                tools:visibility="visible"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="370dp"
+                android:layout_height="452dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="false"
+                android:src="@drawable/rounded_corner"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.538"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView6"
+                app:tint="#FFF6C6"></ImageView>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="200dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="#0FFFD700"
+                android:backgroundTintMode="src_in"
+                android:fontFamily="casual"
+                android:text="say hi to my friend!"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#C5AF3E"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.518"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:tint="#5B342E"
+                app:layout_constraintBottom_toBottomOf="@+id/textView"
+                app:layout_constraintEnd_toStartOf="@+id/textView"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/textView"
+                app:srcCompat="@drawable/ic_baseline_pets_24"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:tint="#5B342E"
+                app:layout_constraintBottom_toBottomOf="@+id/textView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textView"
+                app:layout_constraintTop_toTopOf="@+id/textView"
+                app:srcCompat="@drawable/ic_baseline_pets_24"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/bioTV"
+                android:layout_width="51dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="44dp"
+                android:text="Bio"
+                android:textColor="#5B342E"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/ownerBio"></TextView>
+
+            <TextView
+                android:id="@+id/ownerBio"
+                android:layout_width="235dp"
+                android:layout_height="63dp"
+                android:layout_marginTop="30dp"
+                android:paddingLeft="10dp"
+                android:textColor="#280b45"
+                android:textAlignment="viewStart"
+                android:textColorHint="@color/grey"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.746"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                tools:ignore="MissingConstraints"></TextView>
+
+            <TextView
+                android:id="@+id/nameTextView"
+                android:layout_width="50dp"
+                android:layout_height="26dp"
+                android:layout_marginStart="44dp"
+                android:text="Name"
+                android:textColor="#5B342E"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/dogName"
+                app:layout_constraintVertical_bias="0.0"></TextView>
+
+            <TextView
+                android:id="@+id/dogName"
+                android:layout_width="200dp"
+                android:layout_height="26dp"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="56dp"
+                android:layout_toLeftOf="@+id/dogBreed"
+
+                android:fontFamily="sans-serif"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:textColor="#280b45"
+                android:textColorHint="@color/grey"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/ownerBio"
+                app:layout_constraintTop_toBottomOf="@+id/ownerBio"></TextView>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="50dp"
+                android:layout_height="26dp"
+                android:layout_marginStart="44dp"
+                android:text="Breed"
+                android:textColor="#5B342E"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/dogBreed"></TextView>
+
+            <TextView
+                android:id="@+id/dogBreed"
+                android:layout_width="197dp"
+                android:layout_height="26dp"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="76dp"
+                android:layout_toLeftOf="@+id/dogName"
+                android:fontFamily="sans-serif"
+                android:paddingStart="10dp"
+                android:textColor="#280b45"
+                android:textColorHint="@color/grey"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/dogName"
+                app:layout_constraintTop_toBottomOf="@+id/dogName"></TextView>
+
+            <TextView
+                android:id="@+id/ageTV"
+                android:layout_width="50dp"
+                android:layout_height="26dp"
+                android:layout_marginStart="44dp"
+                android:text="Age"
+                android:textColor="#5B342E"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="@+id/dogAge"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/dogAge"
+                app:layout_constraintVertical_bias="0.0"></TextView>
+
+            <TextView
+                android:id="@+id/dogAge"
+                android:layout_width="177dp"
+                android:layout_height="26dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:fontFamily="sans-serif"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:textColor="#280b45"
+                android:textColorHint="@color/grey"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/dogBreed"
+                app:layout_constraintTop_toBottomOf="@+id/dogBreed"></TextView>
+
+            <TextView
+                android:id="@+id/MPrimaryTraitTV"
+                android:layout_width="124dp"
+                android:layout_height="33dp"
+                android:layout_marginStart="44dp"
+
+                android:layout_marginTop="4dp"
+                android:text="Characteristics:"
+                android:textColor="#5B342E"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/char2_f1"></TextView>
+
+            <TextView
+                android:id="@+id/char2_f1"
+                android:layout_width="161dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="#5B342E"
+
+                android:text="Char2"
+                android:textAlignment="center"
+                android:textColor="#FFF6C6"
+                app:layout_constraintEnd_toStartOf="@+id/imageView4"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/MPrimaryTraitTV"
+                app:layout_constraintTop_toBottomOf="@+id/dogAge" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="40dp"
+                android:layout_height="32dp"
+
+                android:layout_marginEnd="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/char2_f1"
+                app:srcCompat="@android:drawable/btn_star_big_on" />
+
+            <TextView
+                android:id="@+id/char3_f1"
+                android:layout_width="100dp"
+                android:layout_height="36dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="#3C7C57"
+                android:text="Char3"
+                android:textAlignment="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/char4_f1"
+                app:layout_constraintTop_toBottomOf="@+id/char4_f1"
+                app:layout_constraintVertical_bias="0.271"></TextView>
+
+            <TextView
+                android:id="@+id/char4_f1"
+                android:layout_width="100dp"
+                android:layout_height="36dp"
+                android:layout_marginBottom="92dp"
+                android:background="@drawable/search_back"
+                android:text="Char4"
+                android:textAlignment="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/imageView4"
+                app:layout_constraintHorizontal_bias="0.353"
+                app:layout_constraintStart_toEndOf="@+id/char5_f1"
+
+                app:layout_constraintTop_toBottomOf="@+id/char2_f1"
+                app:layout_constraintVertical_bias="0.85"
+                tools:ignore="MissingConstraints"></TextView>
+
+            <TextView
+                android:id="@+id/char5_f1"
+                android:layout_width="100dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="96dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="#CA8F8F"
+                android:text="Char5"
+                android:textAlignment="center"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/MPrimaryTraitTV"
+                tools:ignore="MissingConstraints"></TextView>
+
+            <TextView
+                android:id="@+id/char1_f1"
+                android:layout_width="100dp"
+                android:layout_height="36dp"
+
+                android:layout_marginTop="16dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="#609CA5"
+                android:text="Char1"
+                android:textAlignment="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/char5_f1"
+                app:layout_constraintTop_toBottomOf="@+id/char5_f1"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="MissingConstraints"></TextView>
+
+
+            <!--View
+                android:layout_width="350dp"
+                android:layout_height="5dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="#fde98a"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/char2_f1"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="30dp" /-->
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+</ScrollView>

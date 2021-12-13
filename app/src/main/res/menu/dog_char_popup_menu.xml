@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/happy"
+        android:title="happy" />
+    <item
+        android:id="@+id/aggressive"
+        android:title="happy" />
+    <item
+        android:id="@+id/playful"
+        android:title="playful" />
+    <item
+        android:id="@+id/anxious"
+        android:title="anxious" />
+    <item
+        android:id="@+id/old"
+        android:title="old" />
+    <item
+        android:id="@+id/pup"
+        android:title="pup" />
+    <item
+        android:id="@+id/shedder"
+        android:title="shedder" />
+    <item
+        android:id="@+id/drooler"
+        android:title="drooler" />
+    <item
+        android:id="@+id/lazy"
+        android:title="lazy" />
+    <item
+        android:id="@+id/smart"
+        android:title="smart" />
+
+
+</menu>

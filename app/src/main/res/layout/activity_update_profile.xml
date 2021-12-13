@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffe98a"
+        android:orientation="vertical">
+        <!--   android:orienation="vertical"
+           android:gravity="center"
+           tools:context=".UpdateProfile"
+           android:orientation="vertical"-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="75dp"
+            android:gravity="center_horizontal"
+            android:text="Update Profile"
+            android:textAlignment="center"
+            android:textColor="#280b45"
+            android:textSize="40dp" />
+
+        <!--    <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="15dp"
+            android:layout_gravity="center_horizontal"
+            app:cardPreventCornerOverlap="false"
+            app:cardCornerRadius="75dp">
+
+
+            <ImageView
+                android:id="@+id/imageView_dog_up"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:clickable="true"
+                android:scaleType="fitCenter" />
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        -->
+
+
+        <!--EditText
+
+            android:id="@+id/et_name_up"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:background="@android:color/white"
+            android:layout_gravity="center_horizontal"
+            android:hint="Name"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:textColor="#280b45"
+            android:textColorHint="@color/grey" /-->
+
+        <EditText
+            android:id="@+id/et_dog_name_up"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="7dp"
+
+            android:background="@android:color/white"
+            android:hint="Dogs Name"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:textColor="#280b45"
+            android:textColorHint="@color/grey"
+
+            />
+
+
+        <EditText
+            android:id="@+id/et_breed_up"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="7dp"
+            android:background="@android:color/white"
+            android:hint="Dog Breed"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:textColor="#280b45"
+            android:textColorHint="@color/grey" />
+
+
+        <EditText
+            android:id="@+id/et_dog_age_up"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="7dp"
+            android:background="@android:color/white"
+            android:hint="Dog's Age"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:textColor="#280b45"
+            android:textColorHint="@color/grey" />
+
+
+        <EditText
+            android:id="@+id/et_bio_up"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="7dp"
+            android:autoSizeTextType="uniform"
+            android:background="@android:color/white"
+            android:hint="Bio"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:textColor="#280b45"
+            android:textColorHint="@color/grey" />
+
+        <!--
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="20dp"
+            android:layout_margin="7dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Select You Dog's Characteristics..."></TextView>
+            -->
+
+        <!--
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/char1_btn_up"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_margin="12dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/search_back"
+                android:text="char1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.784"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:id="@+id/char2_btn_up"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_margin="12dp"
+
+                android:layout_marginTop="12dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="#CA8F8F"
+                android:text="Special Char"
+                app:layout_constraintEnd_toStartOf="@+id/char1_btn_up"
+                app:layout_constraintHorizontal_bias="0.649"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:id="@+id/char3_btn_up"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="264dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="#A35050"
+                android:text="Char3"
+                app:layout_constraintEnd_toEndOf="parent"
+
+
+                app:layout_constraintTop_toTopOf="@+id/char4_btn_up"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:id="@+id/char4_btn_up"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="136dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="#609CA5"
+                android:text="Char4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/char2_btn_up"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:id="@+id/char5_btn_up"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="#3C7C57"
+                android:text="Char5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/char4_btn_up"
+                tools:ignore="MissingConstraints" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        -->
+
+        <Button
+            android:id="@+id/btn_up"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+
+            android:background="#cd9575"
+            android:text="Update Profile"
+            android:textColor="#280b45"
+            android:textSize="20dp" />
+
+        <ProgressBar
+            android:id="@+id/progressbar_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+</LinearLayout>

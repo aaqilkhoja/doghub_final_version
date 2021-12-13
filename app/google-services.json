@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "351496903514",
+    "project_id": "doghub-53a72",
+    "storage_bucket": "doghub-53a72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351496903514:android:a23c15d860534ccd38f163",
+        "android_client_info": {
+          "package_name": "com.example.doghub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "351496903514-qe5f36sp5je60ngacuiu4vnbcdj933r1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.doghub",
+            "certificate_hash": "98ccdbb71231030069256482f475182a53d8d9bf"
+          }
+        },
+        {
+          "client_id": "351496903514-643dc3ihe2kq1fca9kq9ouui1eljveq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhpfTme4lRTsGn1OA7tMXKQPSC4MIFCK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "351496903514-643dc3ihe2kq1fca9kq9ouui1eljveq6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
