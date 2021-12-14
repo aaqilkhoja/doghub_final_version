@@ -327,6 +327,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/dogBreed_up"></TextView>
 
             <TextView
+
                 android:id="@+id/MPrimaryTraitTV_up"
                 android:layout_width="124dp"
                 android:layout_height="33dp"
@@ -347,11 +348,11 @@
                 android:layout_marginTop="12dp"
                 android:background="@drawable/rounded_corner"
                 android:backgroundTint="#5B342E"
-                android:text="Char2"
-                android:textColor="#FFF6C6"
+                android:text="Char1"
                 android:textAlignment="center"
+                android:textColor="#FFF6C6"
                 app:layout_constraintEnd_toStartOf="@+id/imageView4_up"
-                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toEndOf="@+id/MPrimaryTraitTV_up"
                 app:layout_constraintTop_toBottomOf="@+id/dogAge_up" />
 
@@ -415,7 +416,7 @@
                 android:layout_marginTop="16dp"
                 android:background="@drawable/rounded_corner"
                 android:backgroundTint="#609CA5"
-                android:text="Char1"
+                android:text="Char2"
                 android:textAlignment="center"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="@+id/char5_up"

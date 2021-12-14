@@ -125,8 +125,8 @@ public class UserProfile extends AppCompatActivity {
                             String bioResult = task.getResult().getString("bio");
                             String dogAgeResult = task.getResult().getString("dogs_age");
                             String url = task.getResult().getString("url");
-                            String char1Result = task.getResult().getString("char1");
-                            String char2Result = task.getResult().getString("char2");
+                            String char1Result = task.getResult().getString("char2");
+                            String char2Result = task.getResult().getString("char1");
                             String char3Result = task.getResult().getString("char3");
                             String char4Result = task.getResult().getString("char4");
                             String char5Result = task.getResult().getString("char5");
