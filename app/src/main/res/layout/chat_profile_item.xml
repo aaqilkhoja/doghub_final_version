@@ -41,13 +41,15 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <TextView
+            <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
-                android:textColor="@color/grey"
-                android:text="Send Message"
+                android:textColor="#5B342E"
+                android:text="Message"
+                android:gravity="center_vertical"
                 android:layout_gravity="right"
+
                 android:id="@+id/send_messagech_item_btn"
 
                 />
@@ -57,7 +59,7 @@
                 android:layout_width="wrap_content"
                 android:textSize="15sp"
                 android:paddingStart="5dp"
-                android:textColor="@android:color/darker_gray"
+                android:textColor="#5B342E"
                 android:id="@+id/namech_item_tv"
                 android:hint="name"
                 android:paddingLeft="5dp" />

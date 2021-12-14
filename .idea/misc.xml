@@ -25,6 +25,8 @@
         <entry key="app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.21770833333333334" />
         <entry key="app/src/main/res/drawable/ic_grey_search_24.xml" value="0.4553846153846154" />
         <entry key="app/src/main/res/drawable/rounded_corner.xml" value="0.27314814814814814" />
+        <entry key="app/src/main/res/drawable/rounded_corner_2.xml" value="0.21770833333333334" />
+        <entry key="app/src/main/res/drawable/rounded_corner_3.xml" value="0.21770833333333334" />
         <entry key="app/src/main/res/drawable/search_back.xml" value="0.4553846153846154" />
         <entry key="app/src/main/res/layout/activity_chat.xml" value="0.4322916666666667" />
         <entry key="app/src/main/res/layout/activity_create_profile.xml" value="0.25" />
