@@ -40,7 +40,7 @@ and their dog's info. Users can search for other users on the platform and inter
 
 VERSION or DATE: 1.0 Nov 30, 2021
 
-HOW TO START THIS PROJECT: This app in compaibtle with android devices only. This project can be opened up in
+HOW TO START THIS PROJECT: This app in compatible with android devices only. This project can be opened up in
 Android Studio, and run through an emulator. 
 
 AUTHORS: Aaqil K. | Harjit S. | Effie K. | Shally S.
